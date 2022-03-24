@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+
+</head>
+<body class="bg-properties">
+    <div id="homeScreen">
+      <h1>Pronto para muito Rock 'n' Roll... </h1>
+      <button class="mainBtn" id="homeBtn">Aumente o som e vamos!</button>
+    </div>
+
+    <div class="container display-none">
+      <video id="video1" class="video"></video>
+
+      <div id="info">
+        <h1 id="title"></h1>
+      </div>
+
+      <div class="controller">
+        <div id="progress-wrapper">
+          <div id="progress"></div>
+        </div>
+
+        <span id="current" class="timers"></span>
+        <span id="duration" class="timers"></span>
+
+        <button id="fullScreen" class="btn">
+          <i class="material-icons"> fullscreen </i>
+        </button>
+        <button id="previous" class="btn">
+          <i class="material-icons"> skip_previous </i>
+        </button>
+        <button id="fast-r" class="btn">
+          <i class="material-icons"> fast_rewind </i>
+        </button>
+        <button id="play" class="btn">
+          <i class="material-icons"> play_circle </i>
+        </button>
+        <button id="fast-f" class="btn">
+          <i class="material-icons"> fast_forward </i>
+        </button>
+        <button id="next" class="btn">
+          <i class="material-icons"> skip_next </i>
+        </button>
+        <button id="stopBtn" class="btn">
+          <i class="material-icons"> stop </i>
+        </button>
+      </div>
+    </div>
+
+    <script src="./data.js"></script>
+    <script src="./script.js"></script>
+
+   
+    
+</body>
+</html>

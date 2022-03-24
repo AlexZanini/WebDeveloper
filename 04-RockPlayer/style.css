@@ -1,0 +1,147 @@
+.bg-properties {
+    background-image: linear-gradient(to top, rgb(235, 190, 106), rgb(112, 14, 14));
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+#homeScreen {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-variant: small-caps;
+    text-align: center;
+    position: relative;
+    width: 740px;
+    height: 360px;
+    margin: auto;
+    top: 30vh;
+  }
+
+#homeBtn {
+    background: inherit;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+  }
+
+#homeBtn:hover {
+    cursor: pointer;
+    color: #db2114;
+  }
+
+.container {
+    position: relative;
+    width: 640px;
+    height: 360px;
+    margin: auto;
+    top: 20vh;
+    box-shadow: 5px 5px 8px rgba(8, 1, 43, 0.596);
+  }
+
+.video {
+    width: 100%;
+  }
+
+#info {
+    position: absolute;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 10px;
+    background-color: rgba(54, 53, 53, 0.644);
+    width: 100%;
+}
+
+#title {
+    margin: 0;
+  }
+
+.controller {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.timers {
+    position: absolute;
+    top: 85%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+#progress-wrapper {
+    position: relative;
+    top: 80%;
+    left: 5%;
+    border-radius: 20px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.226);
+    width: 90%;
+    text-align: center;
+}
+
+  #progress {
+    position: absolute;
+    border-radius: 20px;
+    height: 100%;
+  }
+  .timers {
+    top: 81%;
+    font-size: 14px;
+  }
+  #current {
+    position: relative;
+    float: left;
+    left: 5%;
+  }
+
+#duration {
+    position: relative;
+    float: right;
+    right: 5%;
+  }
+  .btn {
+    position: relative;
+    top: 85%;
+    transform: translateY(-100%);
+    border: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transform: scale(1.5);
+  }
+  .btn:hover {
+    color: rgba(255, 255, 255, 0.973);
+  }
+  .display-none {
+    display: none;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    color: black;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ffbe8a;
+  }
+  @media (max-width: 1280px) {
+    body {
+      background-size: 220vh;
+    }
+  }
